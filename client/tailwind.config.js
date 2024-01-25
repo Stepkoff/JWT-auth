@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     extend: {
+      height: {
+        'fullScreen': 'calc(var(--vh, 1vh) * 100)'
+      },
+      minHeight: {
+        'fullScreen': 'calc(var(--vh, 1vh) * 100)'
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
